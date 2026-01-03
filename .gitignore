@@ -211,3 +211,28 @@ __marimo__/
 ._*
 .Spotlight-V100
 .Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Windows Installer / temp
+*.tmp
+*.temp
+
+# Common editor/IDE (Windows 上很常见)
+.vscode/
+.idea/
+
+# python complement
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
