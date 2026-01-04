@@ -1,0 +1,10 @@
+{"task_id":"bug-1","repo_path":"tasks/bug-1","test_command":"pytest -q","issue":"Fix normalize_phone for CN 11-digit mobiles: if cleaned digits length==11 return '+86'+digits; otherwise return cleaned digits.","max_steps":12,"allow_modify_tests":false}
+{"task_id":"bug-2","repo_path":"tasks/bug-2","test_command":"pytest -q","issue":"parse_date should return None for invalid dates instead of raising.","max_steps":12,"allow_modify_tests":false}
+{"task_id":"bug-3","repo_path":"tasks/bug-3","test_command":"pytest -q","issue":"dedupe_emails should be case-insensitive and preserve order.","max_steps":12,"allow_modify_tests":false}
+{"task_id":"bug-4","repo_path":"tasks/bug-4","test_command":"pytest -q","issue":"slugify should collapse hyphens and trim leading/trailing hyphens.","max_steps":12,"allow_modify_tests":false}
+{"task_id":"bug-5","repo_path":"tasks/bug-5","test_command":"pytest -q","issue":"moving_average should handle window=1 and window>len(data).","max_steps":12,"allow_modify_tests":false}
+{"task_id":"bug-6","repo_path":"tasks/bug-6","test_command":"pytest -q","issue":"canonical_json must sort keys and remove spaces (canonical separators).","max_steps":12,"allow_modify_tests":false}
+{"task_id":"bug-7","repo_path":"tasks/bug-7","test_command":"pytest -q","issue":"safe_divide should return None on division by zero or invalid types.","max_steps":12,"allow_modify_tests":false}
+{"task_id":"bug-8","repo_path":"tasks/bug-8","test_command":"pytest -q","issue":"parse_csv_line must support quoted fields containing commas and trim spaces.","max_steps":12,"allow_modify_tests":false}
+{"task_id":"bug-9","repo_path":"tasks/bug-9","test_command":"pytest -q","issue":"human_bytes must use 1024-based units and 1 decimal for KB+.","max_steps":12,"allow_modify_tests":false}
+{"task_id":"bug-10","repo_path":"tasks/bug-10","test_command":"pytest -q","issue":"retry should only retry specified exceptions and preserve __name__.","max_steps":12,"allow_modify_tests":false}

@@ -1,0 +1,12 @@
+{
+  "task_id": "bug-1",
+  "status": "FAIL",
+  "steps": 2,
+  "tests_passed": false,
+  "final_exit_code": 1,
+  "files_changed": 0,
+  "diff_lines": 0,
+  "notes": "Dummy model. Replace with real LLM.",
+  "model_name": "dummy",
+  "total_seconds": 0.31291985511779785
+}

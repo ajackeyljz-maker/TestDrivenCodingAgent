@@ -1,0 +1,3 @@
+python -m agent.runner --task tasks/bug-1 --task_id bug-1 --model Qwen/Qwen2.5-Coder-7B-Instruct --run_name dev
+python scripts/run_batch.py --tasks task_specs/tasks_10.jsonl --model Qwen/Qwen2.5-Coder-7B-Instruct --run_name ab_test
+python scripts/summarize_results.py --runs runs/ab_test_Qwen/Qwen2.5-Coder-7B-Instruct
